@@ -1,0 +1,51 @@
+[
+    {
+       "className": "AP Physics 2",
+       "teacher": "Mr. Son",
+       "roomNumber": "D208",
+       "period": 1,
+       "subjectArea": "Science" 
+    },
+    {
+       "className": "Health 12 Lab",
+       "teacher": "Mrs. Scollo",
+       "roomNumber": "C128",
+       "period": 2,
+       "subjectArea": "Health" 
+    },
+    {
+       "className": "AP Calculus AB",
+       "teacher": "Mr. Sandoval",
+       "roomNumber": "A219",
+       "period": 3,
+       "subjectArea": "Math" 
+    },
+    {
+       "className": "BCC ENG121 The Writing Process",
+       "teacher": "Mr. Sauter",
+       "roomNumber": "E111",
+       "period": 4,
+       "subjectArea": "English" 
+    },
+    {
+       "className": "AP Computer Science A",
+       "teacher": "Mrs. Rehwinkel",
+       "roomNumber": "A234",
+       "period": 5,
+       "subjectArea": "Math" 
+    },
+    {
+       "className": "Honors Band 2",
+       "teacher": "Mr. Ippolito",
+       "roomNumber": "C103",
+       "period": 6,
+       "subjectArea": "Art" 
+    },
+    {
+       "className": "Honors NJIT IS219 Advanced Website Development WDP",
+       "teacher": "Mr. Kilgore",
+       "roomNumber": "B111",
+       "period": 7,
+       "subjectArea": "21st Century" 
+    }
+]

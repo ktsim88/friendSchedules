@@ -1,0 +1,51 @@
+[
+    {
+       "className": "BCC ENG121 The Writing Process",
+       "teacher": "Mr. Sauter",
+       "roomNumber": "E111",
+       "period": 1,
+       "subjectArea": "English"  
+    },
+    {
+       "className": "AP Statistics",
+       "teacher": "Mrs. Marshall",
+       "roomNumber": "A221",
+       "period": 2,
+       "subjectArea": "Math" 
+    },
+    {
+       "className": "AP Calculus AB",
+       "teacher": "Mr. Sandoval",
+       "roomNumber": "A219",
+       "period": 3,
+       "subjectArea": "Math" 
+    },
+    {
+       "className": "Honors Anatomy and Physiology",
+       "teacher": "Mrs. Carrione",
+       "roomNumber": "D203",
+       "period": 4,
+       "subjectArea": "Science" 
+    },
+    {
+       "className": "Study Hall",
+       "teacher": "Mrs. Rehwinkel",
+       "roomNumber": "C101",
+       "period": 5,
+       "subjectArea": "Study Hall" 
+    },
+    {
+       "className": "AP Biology",
+       "teacher": "Mrs. Carrione",
+       "roomNumber": "D203",
+       "period": 6,
+       "subjectArea": "Science" 
+    },
+    {
+       "className": "AP Psychology",
+    "teacher": "Mrs. Foti",
+    "roomNumber": "A115",
+    "period": 7,
+    "subjectArea": "Social Science"
+    }
+]

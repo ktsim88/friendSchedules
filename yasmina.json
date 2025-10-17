@@ -1,0 +1,51 @@
+[
+    {
+    "className": "Physical Education",
+    "teacher": "Mr. Sininsky",
+    "roomNumber": "Main Gym",
+    "period": "Period 1",
+    "subjectArea": "Physical Education/Health"
+    },
+    {
+    "className": "Precalculus",
+    "teacher": "Mr. Sandoval",
+    "roomNumber": "A219",
+    "period": "Period 2",
+    "subjectArea": "Technology"
+    },
+     {
+    "className": "AP Psychology",
+    "teacher": "Mrs. Foti",
+    "roomNumber": "A115",
+    "period": "Period 3",
+    "subjectArea": "Social Science"
+    },
+    {
+    "className": "Financial Literacy",
+    "teacher": "Mr. Morgan",
+    "roomNumber": "A132",
+    "period": "Period 4",
+    "subjectArea": "Economics"
+    },
+    {
+    "className": "BCC English",
+    "teacher": "Mr. Sauter",
+    "roomNumber": "E111",
+    "period": "Period 5",
+    "subjectArea": "English"
+    },     
+    {
+    "className": "Honors Italian 4",
+    "teacher": "Signora Raineri",
+    "roomNumber": "A205",
+    "period": "Period 6",
+    "subjectArea": "Foreign Language"
+    },
+    {
+    "className": "Honors NJIT IS219 Advanced Website Development ",
+    "teacher": "Mr. Kilgore",
+    "roomNumber": "B111",
+    "period": "Period 7",
+    "subjectArea": "Computer Science"
+    }
+]
