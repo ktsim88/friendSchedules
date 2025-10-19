@@ -1,5 +1,7 @@
 const schedules = ["kristen.json", "nandika.json", "shagan.json", "yasmina.json"];
 let scheduleIndex = 0;
+const names = ["Kristen", "Nandika", "Shagan", "Yasmina"];
+let nameIndex = 0;
 
 async function loadSchedule() {
   try {
@@ -35,11 +37,26 @@ async function loadSchedule() {
 const dblClickSection = document.getElementById("doubleClickSection");
 
 dblClickSection.addEventListener("dblclick", () => {
+  // Increment indices first
   scheduleIndex++;
-  if (scheduleIndex >= schedules.length){
-      scheduleIndex = 0;
+  nameIndex++;
+
+  // Reset if past the end of arrays
+  if (scheduleIndex >= schedules.length){ scheduleIndex = 0;
+      
   }
+  if (nameIndex >= names.length){ 
+      nameIndex = 0;
+      
+  }
+
+  // Update displayed name
+  document.getElementById("scheduleName").textContent = 
+    `You are viewing ${names[nameIndex]}'s Schedule`;
+
+  // Load the schedule for the current index
   loadSchedule();
 });
+
 
 loadSchedule();
