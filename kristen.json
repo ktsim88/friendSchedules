@@ -32,20 +32,20 @@
        "teacher": "Mrs. Rehwinkel",
        "roomNumber": "A234",
        "period": 5,
-       "subjectArea": "Math" 
+       "subjectArea": "Computer Science" 
     },
     {
        "className": "Honors Band 2",
        "teacher": "Mr. Ippolito",
        "roomNumber": "C103",
        "period": 6,
-       "subjectArea": "Art" 
+       "subjectArea": "Music" 
     },
     {
        "className": "Honors NJIT IS219 Advanced Website Development WDP",
        "teacher": "Mr. Kilgore",
        "roomNumber": "B111",
        "period": 7,
-       "subjectArea": "21st Century" 
+       "subjectArea": "Technology" 
     }
 ]
