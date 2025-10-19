@@ -1,29 +1,45 @@
-// async/await version with DOM update:
-async function loadSchedule () {
-	try {
-		const schedule = await fetch("kristen.json");
-		const data = await schedule.json();
-		//for each loop that gets the objects from json files and displays them
+const schedules = ["kristen.json", "nandika.json", "shagan.json", "yasmina.json"];
+let scheduleIndex = 0;
+
+async function loadSchedule() {
+  try {
+    const res = await fetch(`${schedules[scheduleIndex]}`);
+    const data = await res.json();
+
+    const container = document.getElementById("schedulesSection");
+    container.innerHTML = ""; // clear previous content
+
     data.forEach(schedule => {
-        const html =`
-       <div class="col-sm-12 col-md-4">
-                <div class="card my-3 py-2">
-  <div class="card-header">
-    Period ${schedule.period}
-  </div>
-  <div class="card-body">
-    <h5 class="card-title">${schedule.className}</h5>
-    <p class="card-text">Teacher: ${schedule.teacher} <br> Room: ${schedule.roomNumber} <br> Subject: ${schedule.subjectArea}</p>
-  </div>
-</div>
-            </div>`
-        document.getElementById("schedules").insertAdjacentHTML("beforeend", html);
+      const html = `
+        <div class="col-sm-12 col-md-4">
+          <div class="card my-3 py-2">
+            <div class="card-header">Period ${schedule.period}</div>
+            <div class="card-body">
+              <h5 class="card-title">${schedule.className}</h5>
+              <p class="card-text">
+                Teacher: ${schedule.teacher} <br>
+                Room: ${schedule.roomNumber} <br>
+                Subject: ${schedule.subjectArea}
+              </p>
+            </div>
+          </div>
+        </div>`;
+      container.insertAdjacentHTML("beforeend", html);
     });
-
-} catch (err) {
-	document.getscheduleById("schedules").textContent = "Network error:" + err;
-
+  } catch (err) {
+    document.getElementById("schedulesSection").textContent =
+      "Network error: " + err;
+  }
 }
 
-}
+const dblClickSection = document.getElementById("doubleClickSection");
+
+dblClickSection.addEventListener("dblclick", () => {
+  scheduleIndex++;
+  if (scheduleIndex >= schedules.length){
+      scheduleIndex = 0;
+  }
+  loadSchedule();
+});
+
 loadSchedule();
