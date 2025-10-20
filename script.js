@@ -5,7 +5,7 @@ let nameIndex = 0;
 
 async function loadSchedule() {
   try {
-    const res = await fetch(`${schedules[scheduleIndex]}`);
+    const res = await fetch(`json/${schedules[scheduleIndex]}`);
     const data = await res.json();
 
     const container = document.getElementById("schedulesSection");

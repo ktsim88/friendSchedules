@@ -3,7 +3,7 @@
     "className":"AP Statistics",
     "teacher":"Mrs. Reich",
     "roomNumber":"E213",
-    "period":"1",
+    "period": 1,
     "subjectArea":"Math"
     },
 
@@ -11,7 +11,7 @@
     "className":"BCC ENG121 The Writing Process",
     "teacher":"Mrs. Reganato",
     "roomNumber":"E117",
-    "period":"2",
+    "period": 2,
     "subjectArea":"English"
     },
 
@@ -19,7 +19,7 @@
     "className":"AP Calculus BC",
     "teacher":"Mrs. Andrews",
     "roomNumber":"A211",
-    "period":"3",
+    "period": 3,
     "subjectArea":"Math"
     },
 
@@ -27,7 +27,7 @@
     "className":"Public Speaking",
     "teacher":"Mrs. Bender",
     "roomNumber":"A127",
-    "period":"4",
+    "period": 4,
     "subjectArea":"Art Elective"
     },
 
@@ -35,15 +35,15 @@
     "className":"AP Computer Science A",
     "teacher":"Mrs. Rehwinkel",
     "roomNumber":"A234",
-    "period":"5",
-    "subjectArea":"Math"
+    "period": 5,
+    "subjectArea":"Computer Science"
     },
 
     {       
     "className":"Health 12",
     "teacher":"Mr. Sininsky",
     "roomNumber":"C130",
-    "period":"6",
+    "period": 6,
     "subjectArea":"Health"
     },
 
@@ -51,7 +51,7 @@
     "className":"Honors NJIT IS219 Advanced Website Development WDP",
     "teacher":"Mr. Kilgore",
     "roomNumber":"B111",
-    "period":"7",
-    "subjectArea":"21st Century Elective"
+    "period": 7,
+    "subjectArea":"Technology"
     }
 ]
