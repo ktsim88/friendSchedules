@@ -1,0 +1,25 @@
+body {
+    background-color: #c6eaff;
+    font-family: "roca", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+.card {
+     border: solid 5px #57627F;
+    box-shadow: 10px 10px 3px #3A405A;
+    background-color: #e4eeff;
+    border-radius: 10px;
+}
+.card-header {
+    background-color: #acc0ff;
+    color: black;
+    font-family: "baga", sans-serif;
+font-weight: 500;
+font-style: 45px;
+text-shadow: 2px 0.5px 2px white;
+}
+h1, .card-title {
+    font-family: "baga", sans-serif;
+font-weight: 900;
+font-style: normal;
+}

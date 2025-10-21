@@ -11,7 +11,7 @@
     "teacher": "Mr. Sandoval",
     "roomNumber": "A219",
     "period": 2,
-    "subjectArea": "Technology"
+    "subjectArea": "Math"
     },
      {
     "className": "AP Psychology",
@@ -42,7 +42,7 @@
     "subjectArea": "Foreign Language"
     },
     {
-    "className": "Honors NJIT IS219 Advanced Website Development ",
+    "className": "Honors NJIT IS219 Advanced Website Development",
     "teacher": "Mr. Kilgore",
     "roomNumber": "B111",
     "period": 7,

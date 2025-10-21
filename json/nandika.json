@@ -29,7 +29,7 @@
     },
     {
        "className": "Study Hall",
-       "teacher": "Mrs. Rehwinkel",
+       "teacher": "Mr. Morgan",
        "roomNumber": "C101",
        "period": 5,
        "subjectArea": "Study Hall" 
