@@ -23,7 +23,7 @@
     {
        "className": "Honors Anatomy and Physiology",
        "teacher": "Mrs. Carrione",
-       "roomNumber": "D203",
+       "roomNumber": "D202",
        "period": 4,
        "subjectArea": "Science" 
     },
@@ -37,7 +37,7 @@
     {
        "className": "AP Biology",
        "teacher": "Mrs. Carrione",
-       "roomNumber": "D203",
+       "roomNumber": "D202",
        "period": 6,
        "subjectArea": "Science" 
     },
